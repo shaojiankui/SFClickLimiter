@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2FFC24224554F2200C9557D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC24124554F2200C9557D /* AppDelegate.m */; };
+		A2FFC24A24554F2300C9557D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC24924554F2300C9557D /* Assets.xcassets */; };
+		A2FFC24D24554F2300C9557D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC24B24554F2300C9557D /* LaunchScreen.storyboard */; };
+		A2FFC25024554F2300C9557D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC24F24554F2300C9557D /* main.m */; };
+		A2FFC25824554F3C00C9557D /* SFClickLimiter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC25724554F3C00C9557D /* SFClickLimiter.m */; };
+		A2FFC25D24554F8300C9557D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC25B24554F8300C9557D /* RootViewController.m */; };
+		A2FFC25E24554F8300C9557D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC25C24554F8300C9557D /* RootViewController.xib */; };
+		A2FFC26324554FC800C9557D /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC26124554FC800C9557D /* Test1ViewController.m */; };
+		A2FFC26424554FC800C9557D /* Test1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC26224554FC800C9557D /* Test1ViewController.xib */; };
+		A2FFC26824554FEC00C9557D /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC26624554FEC00C9557D /* Test2ViewController.m */; };
+		A2FFC26924554FEC00C9557D /* Test2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC26724554FEC00C9557D /* Test2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2FFC23D24554F2200C9557D /* SFClickLimiter-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFClickLimiter-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FFC24024554F2200C9557D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2FFC24124554F2200C9557D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2FFC24924554F2300C9557D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2FFC24C24554F2300C9557D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2FFC24E24554F2300C9557D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FFC24F24554F2300C9557D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FFC25624554F3C00C9557D /* SFClickLimiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFClickLimiter.h; sourceTree = "<group>"; };
+		A2FFC25724554F3C00C9557D /* SFClickLimiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFClickLimiter.m; sourceTree = "<group>"; };
+		A2FFC25A24554F8300C9557D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A2FFC25B24554F8300C9557D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A2FFC25C24554F8300C9557D /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A2FFC26024554FC800C9557D /* Test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		A2FFC26124554FC800C9557D /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		A2FFC26224554FC800C9557D /* Test1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test1ViewController.xib; sourceTree = "<group>"; };
+		A2FFC26524554FEC00C9557D /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		A2FFC26624554FEC00C9557D /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		A2FFC26724554FEC00C9557D /* Test2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FFC23A24554F2200C9557D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FFC23424554F2200C9557D = {
+			isa = PBXGroup;
+			children = (
+				A2FFC23F24554F2200C9557D /* SFClickLimiter-iOS */,
+				A2FFC23E24554F2200C9557D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FFC23E24554F2200C9557D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC23D24554F2200C9557D /* SFClickLimiter-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FFC23F24554F2200C9557D /* SFClickLimiter-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC25924554F6F00C9557D /* Controller */,
+				A2FFC25624554F3C00C9557D /* SFClickLimiter.h */,
+				A2FFC25724554F3C00C9557D /* SFClickLimiter.m */,
+				A2FFC24024554F2200C9557D /* AppDelegate.h */,
+				A2FFC24124554F2200C9557D /* AppDelegate.m */,
+				A2FFC24924554F2300C9557D /* Assets.xcassets */,
+				A2FFC24B24554F2300C9557D /* LaunchScreen.storyboard */,
+				A2FFC24E24554F2300C9557D /* Info.plist */,
+				A2FFC24F24554F2300C9557D /* main.m */,
+			);
+			path = "SFClickLimiter-iOS";
+			sourceTree = "<group>";
+		};
+		A2FFC25924554F6F00C9557D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC25A24554F8300C9557D /* RootViewController.h */,
+				A2FFC25B24554F8300C9557D /* RootViewController.m */,
+				A2FFC25C24554F8300C9557D /* RootViewController.xib */,
+				A2FFC26024554FC800C9557D /* Test1ViewController.h */,
+				A2FFC26124554FC800C9557D /* Test1ViewController.m */,
+				A2FFC26224554FC800C9557D /* Test1ViewController.xib */,
+				A2FFC26524554FEC00C9557D /* Test2ViewController.h */,
+				A2FFC26624554FEC00C9557D /* Test2ViewController.m */,
+				A2FFC26724554FEC00C9557D /* Test2ViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FFC23C24554F2200C9557D /* SFClickLimiter-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FFC25324554F2300C9557D /* Build configuration list for PBXNativeTarget "SFClickLimiter-iOS" */;
+			buildPhases = (
+				A2FFC23924554F2200C9557D /* Sources */,
+				A2FFC23A24554F2200C9557D /* Frameworks */,
+				A2FFC23B24554F2200C9557D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFClickLimiter-iOS";
+			productName = "SFClickLimiter-iOS";
+			productReference = A2FFC23D24554F2200C9557D /* SFClickLimiter-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FFC23524554F2200C9557D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Jakey;
+				TargetAttributes = {
+					A2FFC23C24554F2200C9557D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A2FFC23824554F2200C9557D /* Build configuration list for PBXProject "SFClickLimiter-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2FFC23424554F2200C9557D;
+			productRefGroup = A2FFC23E24554F2200C9557D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FFC23C24554F2200C9557D /* SFClickLimiter-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FFC23B24554F2200C9557D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFC26924554FEC00C9557D /* Test2ViewController.xib in Resources */,
+				A2FFC26424554FC800C9557D /* Test1ViewController.xib in Resources */,
+				A2FFC24D24554F2300C9557D /* LaunchScreen.storyboard in Resources */,
+				A2FFC24A24554F2300C9557D /* Assets.xcassets in Resources */,
+				A2FFC25E24554F8300C9557D /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FFC23924554F2200C9557D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFC25824554F3C00C9557D /* SFClickLimiter.m in Sources */,
+				A2FFC26324554FC800C9557D /* Test1ViewController.m in Sources */,
+				A2FFC25024554F2300C9557D /* main.m in Sources */,
+				A2FFC26824554FEC00C9557D /* Test2ViewController.m in Sources */,
+				A2FFC25D24554F8300C9557D /* RootViewController.m in Sources */,
+				A2FFC24224554F2200C9557D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2FFC24B24554F2300C9557D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FFC24C24554F2300C9557D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FFC25124554F2300C9557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2FFC25224554F2300C9557D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FFC25424554F2300C9557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFClickLimiter-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.SFClickLimiter-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2FFC25524554F2300C9557D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SFClickLimiter-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.SFClickLimiter-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FFC23824554F2200C9557D /* Build configuration list for PBXProject "SFClickLimiter-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFC25124554F2300C9557D /* Debug */,
+				A2FFC25224554F2300C9557D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FFC25324554F2300C9557D /* Build configuration list for PBXNativeTarget "SFClickLimiter-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFC25424554F2300C9557D /* Debug */,
+				A2FFC25524554F2300C9557D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FFC23524554F2200C9557D /* Project object */;
+}
